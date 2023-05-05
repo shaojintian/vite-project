@@ -1,7 +1,7 @@
 const View = () => {
     return (
-        <div className='subhome'>
-            <p>subhome</p>
+        <div className='about'>
+            <p>about</p>
         </div>
     )
 }

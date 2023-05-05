@@ -3,10 +3,11 @@ import {Navigate} from "react-router-dom";
 import React from "react";
 
 const Home = lazy(()=>import("../views/Home.tsx"))
-const SubHome = lazy(()=>import("../views/SubHome.tsx"))
+const SubHome = lazy(()=>import("../views/About.tsx"))
 
+//
 const withLoadingComponent = (comp:JSX.Element)=>(
-    <React.Suspense fallback={<p>loading</p>}>
+    <React.Suspense fallback={<p>loading........</p>}>
         {comp}
     </React.Suspense>
 )
